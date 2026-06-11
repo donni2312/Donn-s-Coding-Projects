@@ -98,7 +98,7 @@ entry.target.style.transform = 'translateY(0)';
 }, observerOptions);
 
 // Apply animation to elements
-document.querySelectorAll('.skill-category, .project-card, .stat-card, .about-text, .contact-info, .contact-form').forEach(el => {
+document.querySelectorAll('.skill-category, .project-card, .stat-card, .achievement-card, .about-text, .contact-info, .contact-form').forEach(el => {
 el.style.opacity = '0';
 el.style.transform = 'translateY(30px)';
 el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
